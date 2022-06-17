@@ -1,0 +1,29 @@
+@import './base/typography';
+@import './layout/navigation';
+@import './layout/footer';
+@import './components/buttons';
+@import './layout/header';
+
+$primary-color: #ffff;
+$secondary-color:  #686963;
+
+h3 {
+    color: $primary-color;
+}
+
+.navbar {
+    background-color: $secondary-color;
+}
+
+nav div a {
+    color: $primary-color;
+}
+
+footer {
+    background-color: $secondary-color;
+  
+}
+
+.boton-footer {
+    color: $secondary-color;
+}
